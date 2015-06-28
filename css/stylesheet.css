@@ -1,33 +1,45 @@
 
 /*header and navigation bar*/
+#header {
+  background-color: white;
+  width: auto;
+  height: 45px;
+  margin: -20px -10px -10px -10px;
+}
 .navbar {
   padding: 7px 30px 0 30px;
   position: relative;
   font-family: Roboto, arial, sans-serif;
   font-size: 13px;
   line-height: 13px;
-}
+  background-color: white;
+  margin-top: 20px;
 
+
+
+}
+.yt_masthead_container {
+  height: auto;
+  width: 200px;
+  display: inline-block;
+}
 .y_menu {
   height: auto;
   width: auto;
   background-color: white;
   display: inline-block
 }
-
 .y_menu_box {
   height:auto;
   width: auto;
   margin-bottom: 10px;
 }
-
 .y_menu_bars {
   height: 2px;
   width: 13px;
   margin: 0px 0px 2px 10px;
   background-color: darkgrey
 }
-
 .y_menu_triangle {
   width: 0;
   height: 0;
@@ -37,23 +49,116 @@
   display: inline-block;
   margin-bottom: 14px
 }
+.search_container {
+  height: auto;
+  max-width: 99%;
+  display: inline-block;
+  white-space: nowrap;
+  clear: both;
 
+}
 .search_box {
-  height: 28px;
-  max-width: 800px;
-  min-width: 600px;
+  height: 29px;
+  width: 300px;
   border: 1px solid lightgrey;
   display: inline-block;
-  margin-left: 90px;
-  position: fixed;
   -webkit-box-shadow: inset 0px 0px 5px -4px rgba(0,0,0,0.77);
--moz-box-shadow: inset 0px 0px 5px -4px rgba(0,0,0,0.77);
-box-shadow: inset 0px 0px 5px -4px rgba(0,0,0,0.77);
+     -moz-box-shadow: inset 0px 0px 5px -4px rgba(0,0,0,0.77);
+          box-shadow: inset 0px 0px 5px -4px rgba(0,0,0,0.77);
 }
-
 .search_button {
   display: inline-block;
+  height: 29px;
+  width: 60px;
+  border: 1px solid lightgrey;
+  margin-left: -4px;
+  border-left: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+  box-shadow:rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+  background-color: rgb(248, 248, 248);
+}
+.search_icon_circle_large {
+  background: grey;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: -4px 0 0 24px;
+  z-index: 1;
+}
+.search_icon_circle_small {
+  background-color: white;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -3px 0px 0px -3px;
+  z-index: 3;
+}
+.search_icon_line {
+        width: 5px;
+        height: 5px;
+        border-bottom: 2.5px solid grey;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin: 12.5px 0 0 33px;
+}
+.yt_right_masthead_container {
+  float: right;
+  clear: both;
+  height: 29px;
+}
+.signin_button {
   height: 28px;
+  width: 55px;
+  display: inline-block;
+  border: 1px #167AC6 solid;
+  border-radius: 2px;
+  background-color: #167AC6;
+  color: white;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration-color: #FFF;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 10px;
+}
+.general_button {
+  height: 28px;
+  width: 55px;
+  display: inline-block;
+  border: 1px lightgrey solid;
+  border-radius: 2px;
+  background-color: rgb(248, 248, 248);
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  vertical-align: middle;
+  text-align: center;
+}
+.button_text {
+  position: relative;
+	top: 25%;
+	transform: 			translateY(-50%);
+}
 
 
+/*body section*/
+
+body {
+  background-color: lightgrey;
+}
+
+iframe {
+  margin-top: 20px;
+  margin-left: 25px;
 }
